@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>English Learning</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Cinta -->
+
+    <!-- Header -->
+    <header>
+        <nav class="navbar container">
+            <div class="d-flex">
+                <a class="logo">LOGO</a>
+                <div class="btnMenu" id="btnMenu">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                    </svg>
+                </div>
+                <ul class="listContainer " id="listMenu">
+                    <li id="btnClose"> Close <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                            strokeWidth={1.5} stroke="currentColor" className="w-2 h-2">
+                            <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
+                        </svg>
+                    </li>
+                    <li>Home</li>
+                    <li>Services</li>
+                    <li>Shop Books</li>
+                    <li>About Us</li>
+                    <li>
+                        <svg height="100%"
+                            style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"
+                            version="1.1" viewBox="0 0 512 512" width="100%" xml:space="preserve"
+                            xmlns="http://www.w3.org/2000/svg" xmlns:serif="http://www.serif.com/"
+                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <path
+                                d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-106.468,0l0,-192.915l66.6,0l12.672,-82.621l-79.272,0l0,-53.617c0,-22.603 11.073,-44.636 46.58,-44.636l36.042,0l0,-70.34c0,0 -32.71,-5.582 -63.982,-5.582c-65.288,0 -107.96,39.569 -107.96,111.204l0,62.971l-72.573,0l0,82.621l72.573,0l0,192.915l-191.104,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Z" />
+                        </svg>
+
+                        <svg height="100%"
+                            style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"
+                            version="1.1" viewBox="0 0 512 512" width="100%" xml:space="preserve"
+                            xmlns="http://www.w3.org/2000/svg" xmlns:serif="http://www.serif.com/"
+                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <path
+                                d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-106.468,0l0,-192.915l66.6,0l12.672,-82.621l-79.272,0l0,-53.617c0,-22.603 11.073,-44.636 46.58,-44.636l36.042,0l0,-70.34c0,0 -32.71,-5.582 -63.982,-5.582c-65.288,0 -107.96,39.569 -107.96,111.204l0,62.971l-72.573,0l0,82.621l72.573,0l0,192.915l-191.104,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Z" />
+                        </svg>
+
+                        <svg height="100%"
+                            style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"
+                            version="1.1" viewBox="0 0 512 512" width="100%" xml:space="preserve"
+                            xmlns="http://www.w3.org/2000/svg" xmlns:serif="http://www.serif.com/"
+                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <path
+                                d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-106.468,0l0,-192.915l66.6,0l12.672,-82.621l-79.272,0l0,-53.617c0,-22.603 11.073,-44.636 46.58,-44.636l36.042,0l0,-70.34c0,0 -32.71,-5.582 -63.982,-5.582c-65.288,0 -107.96,39.569 -107.96,111.204l0,62.971l-72.573,0l0,82.621l72.573,0l0,192.915l-191.104,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Z" />
+                        </svg>
+
+                        <svg height="100%"
+                            style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"
+                            version="1.1" viewBox="0 0 512 512" width="100%" xml:space="preserve"
+                            xmlns="http://www.w3.org/2000/svg" xmlns:serif="http://www.serif.com/"
+                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <path
+                                d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-106.468,0l0,-192.915l66.6,0l12.672,-82.621l-79.272,0l0,-53.617c0,-22.603 11.073,-44.636 46.58,-44.636l36.042,0l0,-70.34c0,0 -32.71,-5.582 -63.982,-5.582c-65.288,0 -107.96,39.569 -107.96,111.204l0,62.971l-72.573,0l0,82.621l72.573,0l0,192.915l-191.104,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Z" />
+                        </svg>
+
+                    </li>
+                </ul>
+            </div>
+
+            <a class="btn-start space-x">START NOW
+                <svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M9.3 11.275C9.1 11.075 9.004 10.8333 9.012 10.55C9.02067 10.2667 9.125 10.025 9.325 9.82499L12.15 6.99999H1C0.716667 6.99999 0.479 6.90399 0.287 6.71199C0.0956668 6.52065 0 6.28332 0 5.99999C0 5.71665 0.0956668 5.47899 0.287 5.28699C0.479 5.09565 0.716667 4.99999 1 4.99999H12.15L9.3 2.14999C9.1 1.94999 9 1.71232 9 1.43699C9 1.16232 9.1 0.924987 9.3 0.724988C9.5 0.524988 9.73767 0.424988 10.013 0.424988C10.2877 0.424988 10.525 0.524988 10.725 0.724988L15.3 5.29999C15.4 5.39999 15.471 5.50832 15.513 5.62499C15.5543 5.74165 15.575 5.86665 15.575 5.99999C15.575 6.13332 15.5543 6.25832 15.513 6.37499C15.471 6.49165 15.4 6.59999 15.3 6.69999L10.7 11.3C10.5167 11.4833 10.2877 11.575 10.013 11.575C9.73767 11.575 9.5 11.475 9.3 11.275Z"
+                        fill="#020731" />
+                </svg>
+
+            </a>
+        </nav>
+    </header>
+    <!-- Hero -->
+    <main class="hero">
+        <div class="container heroContainer ">
+            <div class="textSide">
+                <!-- Desc -->
+
+                <h1 class="titleHero">Go to the next level</h1>
+                <p class="heroDesc">Lorem ipsum dolor sit amet consectetur. Nulla vulputate at donec pharetra congue
+                    turpis pretium.
+                    Lectus in sem ante tempus. Arcu egestas quis convallis enim quis odio eget. Egestas quis vitae sit
+                    posuere.</p>
+                <button class="btn-primary mt-4">BECOMING A NATIVE SPEAKER</button>
+            </div>
+            <div class="imgSide">
+                <!-- Picture -->
+                <img src="/img/girl.png" />
+                <div class="circle"></div>
+            </div>
+        </div>
+        <div class="container space-y-20">
+            <h2 class="generalTitle">Infinity Learning Academy</h2>
+            <p class="generalSubTitle">A 6-Motnth program to prepare you for better paying job in the United States</p>
+
+            <div class="card-Container">
+                <!-- Card1 -->
+                <div class="program-card">
+                    <svg width="101" height="100" viewBox="0 0 101 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M9.875 21.875V53.125H91.125V46.875H53.625V40.625H91.125V34.375H53.625V28.125H91.125V21.875H9.875ZM16.125 25C16.9538 25 17.7487 25.3292 18.3347 25.9153C18.9208 26.5013 19.25 27.2962 19.25 28.125C19.25 28.9538 18.9208 29.7487 18.3347 30.3347C17.7487 30.9208 16.9538 31.25 16.125 31.25C15.2962 31.25 14.5013 30.9208 13.9153 30.3347C13.3292 29.7487 13 28.9538 13 28.125C13 27.2962 13.3292 26.5013 13.9153 25.9153C14.5013 25.3292 15.2962 25 16.125 25ZM28.625 25C29.4538 25 30.2487 25.3292 30.8347 25.9153C31.4208 26.5013 31.75 27.2962 31.75 28.125C31.75 28.9538 31.4208 29.7487 30.8347 30.3347C30.2487 30.9208 29.4538 31.25 28.625 31.25C27.7962 31.25 27.0013 30.9208 26.4153 30.3347C25.8292 29.7487 25.5 28.9538 25.5 28.125C25.5 27.2962 25.8292 26.5013 26.4153 25.9153C27.0013 25.3292 27.7962 25 28.625 25ZM41.125 25C41.9538 25 42.7487 25.3292 43.3347 25.9153C43.9208 26.5013 44.25 27.2962 44.25 28.125C44.25 28.9538 43.9208 29.7487 43.3347 30.3347C42.7487 30.9208 41.9538 31.25 41.125 31.25C40.2962 31.25 39.5013 30.9208 38.9153 30.3347C38.3292 29.7487 38 28.9538 38 28.125C38 27.2962 38.3292 26.5013 38.9153 25.9153C39.5013 25.3292 40.2962 25 41.125 25ZM22.375 34.375C23.2038 34.375 23.9987 34.7042 24.5847 35.2903C25.1708 35.8763 25.5 36.6712 25.5 37.5C25.5 38.3288 25.1708 39.1237 24.5847 39.7097C23.9987 40.2958 23.2038 40.625 22.375 40.625C21.5462 40.625 20.7513 40.2958 20.1653 39.7097C19.5792 39.1237 19.25 38.3288 19.25 37.5C19.25 36.6712 19.5792 35.8763 20.1653 35.2903C20.7513 34.7042 21.5462 34.375 22.375 34.375ZM34.875 34.375C35.7038 34.375 36.4987 34.7042 37.0847 35.2903C37.6708 35.8763 38 36.6712 38 37.5C38 38.3288 37.6708 39.1237 37.0847 39.7097C36.4987 40.2958 35.7038 40.625 34.875 40.625C34.0462 40.625 33.2513 40.2958 32.6653 39.7097C32.0792 39.1237 31.75 38.3288 31.75 37.5C31.75 36.6712 32.0792 35.8763 32.6653 35.2903C33.2513 34.7042 34.0462 34.375 34.875 34.375ZM47.375 34.375C48.2038 34.375 48.9987 34.7042 49.5847 35.2903C50.1708 35.8763 50.5 36.6712 50.5 37.5C50.5 38.3288 50.1708 39.1237 49.5847 39.7097C48.9987 40.2958 48.2038 40.625 47.375 40.625C46.5462 40.625 45.7513 40.2958 45.1653 39.7097C44.5792 39.1237 44.25 38.3288 44.25 37.5C44.25 36.6712 44.5792 35.8763 45.1653 35.2903C45.7513 34.7042 46.5462 34.375 47.375 34.375ZM16.125 43.75C16.9538 43.75 17.7487 44.0792 18.3347 44.6653C18.9208 45.2513 19.25 46.0462 19.25 46.875C19.25 47.7038 18.9208 48.4987 18.3347 49.0847C17.7487 49.6708 16.9538 50 16.125 50C15.2962 50 14.5013 49.6708 13.9153 49.0847C13.3292 48.4987 13 47.7038 13 46.875C13 46.0462 13.3292 45.2513 13.9153 44.6653C14.5013 44.0792 15.2962 43.75 16.125 43.75ZM28.625 43.75C29.4538 43.75 30.2487 44.0792 30.8347 44.6653C31.4208 45.2513 31.75 46.0462 31.75 46.875C31.75 47.7038 31.4208 48.4987 30.8347 49.0847C30.2487 49.6708 29.4538 50 28.625 50C27.7962 50 27.0013 49.6708 26.4153 49.0847C25.8292 48.4987 25.5 47.7038 25.5 46.875C25.5 46.0462 25.8292 45.2513 26.4153 44.6653C27.0013 44.0792 27.7962 43.75 28.625 43.75ZM41.125 43.75C41.9538 43.75 42.7487 44.0792 43.3347 44.6653C43.9208 45.2513 44.25 46.0462 44.25 46.875C44.25 47.7038 43.9208 48.4987 43.3347 49.0847C42.7487 49.6708 41.9538 50 41.125 50C40.2962 50 39.5013 49.6708 38.9153 49.0847C38.3292 48.4987 38 47.7038 38 46.875C38 46.0462 38.3292 45.2513 38.9153 44.6653C39.5013 44.0792 40.2962 43.75 41.125 43.75ZM9.875 59.375V65.625H91.125V59.375H9.875ZM9.875 71.875V78.125H91.125V71.875H9.875Z"
+                            fill="#F5A937" />
+                    </svg>
+
+
+                    <p>
+                        4 levels of becoming a confident English speaker
+                    </p>
+                </div>
+
+                <div class="program-card">
+                    <svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_7_98)">
+                            <path
+                                d="M63.8889 72.2222C63.8889 72.9589 63.5962 73.6655 63.0753 74.1864C62.5543 74.7073 61.8478 75 61.1111 75H22.2222C21.6111 75 21.0278 75.5555 20.5278 75.9167L11.1111 83.3333V38.8889C11.1111 38.1522 11.4038 37.4456 11.9247 36.9247C12.4456 36.4038 13.1522 36.1111 13.8889 36.1111H24.6111V30.5555H13.8889C11.6787 30.5555 9.55912 31.4335 7.99632 32.9963C6.43352 34.5591 5.55554 36.6787 5.55554 38.8889V88.8889C5.55968 89.4048 5.70739 89.9093 5.98214 90.346C6.25689 90.7826 6.64781 91.1341 7.1111 91.3611C7.55743 91.5641 8.04953 91.6453 8.53742 91.5965C9.0253 91.5477 9.49158 91.3707 9.88888 91.0833L24.1944 80.5555H61.5278C62.5806 80.5867 63.6285 80.4013 64.6068 80.011C65.5851 79.6206 66.4727 79.0336 67.2149 78.2862C67.9571 77.5388 68.5379 76.647 68.9214 75.6661C69.3049 74.6851 69.4829 73.6359 69.4444 72.5833V69.4444H63.8889V72.2222Z"
+                                fill="#F5A937" />
+                            <path
+                                d="M86.1111 11.1111H38.8889C36.6787 11.1111 34.5591 11.9891 32.9963 13.5519C31.4335 15.1147 30.5555 17.2343 30.5555 19.4444V52.7777C30.5555 54.9879 31.4335 57.1075 32.9963 58.6703C34.5591 60.2331 36.6787 61.1111 38.8889 61.1111H76.5278L89.8055 71.4166C90.2003 71.7085 90.6653 71.8905 91.1532 71.9442C91.6411 71.9978 92.1346 71.9212 92.5833 71.7222C93.056 71.4971 93.4555 71.1429 93.7356 70.7006C94.0157 70.2583 94.1652 69.7458 94.1667 69.2222V19.4444C94.1679 17.2816 93.3281 15.203 91.8249 13.6479C90.3217 12.0929 88.2727 11.1832 86.1111 11.1111ZM88.8889 63.7222L79.1667 56.1389C78.6818 55.7626 78.086 55.5574 77.4722 55.5555H38.8889C38.1522 55.5555 37.4456 55.2629 36.9247 54.7419C36.4038 54.221 36.1111 53.5145 36.1111 52.7777V19.4444C36.1111 18.7077 36.4038 18.0012 36.9247 17.4802C37.4456 16.9593 38.1522 16.6666 38.8889 16.6666H86.1111C86.8536 16.734 87.5459 17.0706 88.0575 17.6129C88.5691 18.1552 88.8648 18.8659 88.8889 19.6111V63.7222Z"
+                                fill="#474747" />
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_7_98">
+                                <rect width="100" height="100" fill="white" />
+                            </clipPath>
+                        </defs>
+                    </svg>
+
+                    <p>Focus on reading, writing, listening, and speaking</p>
+                </div>
+
+                <div class="program-card">
+                    <svg width="101" height="100" viewBox="0 0 101 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M50.5 20.8333C59.8931 20.8333 68.9014 24.5647 75.5434 31.2066C82.1853 37.8485 85.9166 46.8569 85.9166 56.25C85.9166 65.643 82.1853 74.6514 75.5434 81.2933C68.9014 87.9352 59.8931 91.6666 50.5 91.6666C41.1069 91.6666 32.0985 87.9352 25.4566 81.2933C18.8147 74.6514 15.0833 65.643 15.0833 56.25C15.0833 46.8569 18.8147 37.8485 25.4566 31.2066C32.0985 24.5647 41.1069 20.8333 50.5 20.8333ZM50.5 27.0833C42.7645 27.0833 35.3459 30.1562 29.876 35.626C24.4062 41.0958 21.3333 48.5145 21.3333 56.25C21.3333 63.9854 24.4062 71.4041 29.876 76.8739C35.3459 82.3437 42.7645 85.4166 50.5 85.4166C58.2355 85.4166 65.6541 82.3437 71.1239 76.8739C76.5937 71.4041 79.6666 63.9854 79.6666 56.25C79.6666 48.5145 76.5937 41.0958 71.1239 35.626C65.6541 30.1562 58.2355 27.0833 50.5 27.0833ZM50.5 33.3333C51.2551 33.3333 51.9847 33.6068 52.5539 34.1032C53.123 34.5995 53.4931 35.2852 53.5958 36.0333L53.625 36.4583V55.2083C53.6247 56.0001 53.324 56.7622 52.7834 57.3408C52.2429 57.9193 51.5029 58.2711 50.713 58.3251C49.9231 58.379 49.1421 58.1311 48.5279 57.6315C47.9137 57.1318 47.5121 56.4177 47.4042 55.6333L47.375 55.2083V36.4583C47.375 35.6295 47.7042 34.8346 48.2903 34.2486C48.8763 33.6625 49.6712 33.3333 50.5 33.3333ZM80.2792 21.3083L80.625 21.5583L85.45 25.575C86.0541 26.0831 86.4436 26.801 86.5401 27.5845C86.6366 28.368 86.4331 29.159 85.9703 29.7985C85.5075 30.4381 84.8198 30.8788 84.0455 31.0321C83.2711 31.1854 82.4674 31.0399 81.7958 30.625L81.4542 30.375L76.625 26.3583C76.0208 25.8502 75.6314 25.1322 75.5348 24.3488C75.4383 23.5653 75.6419 22.7743 76.1047 22.1347C76.5675 21.4952 77.2551 21.0545 78.0295 20.9012C78.8039 20.7479 79.6076 20.8933 80.2792 21.3083ZM59.875 10.4166C60.6668 10.4169 61.4289 10.7176 62.0075 11.2582C62.586 11.7987 62.9378 12.5387 62.9918 13.3286C63.0457 14.1185 62.7978 14.8995 62.2982 15.5137C61.7985 16.1279 61.0844 16.5295 60.3 16.6375L59.875 16.6666H41.125C40.3332 16.6664 39.5711 16.3656 38.9925 15.8251C38.414 15.2845 38.0622 14.5445 38.0082 13.7546C37.9542 12.9647 38.2021 12.1837 38.7018 11.5695C39.2014 10.9554 39.9156 10.5537 40.7 10.4458L41.125 10.4166H59.875Z"
+                            fill="#F5A937" />
+                    </svg>
+                    <p>Revolutionary way of looking at how language is learned</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- We are -->
+    <main class="weAre">
+        <div class="container weAreSection">
+
+            <div class="weAreDesc">
+                <!-- text -->
+                <h2 class="weAretitle">We help you in learning & understanding
+                    the language</h2>
+
+                <p class="weAreSubtitle">Infinity Learning Academy is not your typical learning English course</p>
+                <p>A 6-Month program to prepare you for better
+                    paying jobs in the United States.</p>
+
+                <div class="details">
+                    <p>Getting invited for an interview, or your CV being checked
+                        in the bin because of bad grammar.</p>
+                    <p>Getting invited for an interview, or your CV being checked
+                        in the bin because of bad grammar.</p>
+                    <p>Getting invited for an interview, or your CV being checked
+                        in the bin because of bad grammar.</p>
+                </div>
+
+
+            </div>
+            <div>
+                <!-- img -->
+                <img src="/img/weare.png" alt="">
+            </div>
+        </div>
+        <button class="btn-warning">ABOUT US</button>
+
+    </main>
+    <!-- Mission -->
+
+    <main class="space-y-20">
+        <div class="container mision">
+
+            <!-- Img -->
+            <div class="imgContent">
+                <img src="/img/misionimg.png" alt="101 class">
+            </div>
+            <!-- text -->
+            <div class="mision-desc">
+                <p>Infinity Learning provides 1:1 private tutoring and small group classes for all ages and grade levels
+                    in the following content areas: Math, English Language Arts, Writing, Chemistry, Physics, Biology,
+                    History, Spanish, French, German and Test Prep.</p>
+
+                <p>Voted Best Tutoring Center in North Atlanta for 2 Consecutive Years!</p>
+            </div>
+
+        </div>
+    </main>
+    <!-- Testimonials -->
+
+    <main class="testimonials space-y-20">
+        <div class="container  testimonialsContent">
+            <h2 class="generalTitle"> Testimonials</h2>
+            <p class="generalSubTitle">What our students say about us.</p>
+            <div class="containerTestimonials">
+                <div class="card-testi">
+                    <div class="cardHeader">
+                        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcache.desktopnexus.com%2Fthumbseg%2F2487%2F2487414-bigthumbnail.jpg&f=1&nofb=1&ipt=403e8a44e2f0699f46c395d49038c61246da41e712cb9ef788331c2060dba099&ipo=images"
+                            alt="">
+                    </div>
+                    <p class="cardTitle">Fernando Castro</p>
+                    <p class="cardDesc">We are thrilled with the results our daughter has received in Math thus far. Her
+                        tutor is patient and knowledgeable. Infinity Learning has exceeded our expectations!</p>
+                    <div class="cardFooter">
+
+                        <svg width="120" height="25" viewBox="0 0 120 25" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_175_5)">
+                                <path
+                                    d="M5.825 22.0625L7.45 15.0375L2 10.3125L9.2 9.6875L12 3.0625L14.8 9.6875L22 10.3125L16.55 15.0375L18.175 22.0625L12 18.3375L5.825 22.0625Z"
+                                    fill="#F5A937" />
+                                <path
+                                    d="M29.825 22.0625L31.45 15.0375L26 10.3125L33.2 9.6875L36 3.0625L38.8 9.6875L46 10.3125L40.55 15.0375L42.175 22.0625L36 18.3375L29.825 22.0625Z"
+                                    fill="#F5A937" />
+                                <path
+                                    d="M53.825 22.0625L55.45 15.0375L50 10.3125L57.2 9.6875L60 3.0625L62.8 9.6875L70 10.3125L64.55 15.0375L66.175 22.0625L60 18.3375L53.825 22.0625Z"
+                                    fill="#F5A937" />
+                                <path
+                                    d="M77.825 22.0625L79.45 15.0375L74 10.3125L81.2 9.6875L84 3.0625L86.8 9.6875L94 10.3125L88.55 15.0375L90.175 22.0625L84 18.3375L77.825 22.0625Z"
+                                    fill="#F5A937" />
+                                <path
+                                    d="M118 9.3025L110.81 8.6825L108 2.0625L105.19 8.6925L98 9.3025L103.46 14.0325L101.82 21.0625L108 17.3325L114.18 21.0625L112.55 14.0325L118 9.3025ZM108 15.4625V6.1625L109.71 10.2025L114.09 10.5825L110.77 13.4625L111.77 17.7425L108 15.4625Z"
+                                    fill="#F5A937" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_175_5">
+                                    <rect width="120" height="24" fill="white" transform="translate(0 0.0625)" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+
+                    </div>
+                </div>
+
+                <div class="card-testi">
+                    <div class="cardHeader">
+                        <img
+                            src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2F736x%2F13%2F4f%2Ffd%2F134ffde3261e77934b12861138f2ac3c.jpg&f=1&nofb=1&ipt=5754ea473d6fcf7c1301d3f7f339365d088b025fa08d3af460807786a99ffc5d&ipo=images" />
+                    </div>
+                    <p class="cardTitle">Ingrid Flores</p>
+                    <p class="cardDesc">This has been such a great experience for my daughter! The Infinity Learning
+                        staff is
+                        knowledgeable and accommodating. I highly recommend them to anyone needing academic help with a
+                        customized touch.</p>
+                    <div class="cardFooter">
+                        <svg width="120" height="25" viewBox="0 0 120 25" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_175_5)">
+                                <path
+                                    d="M5.825 22.0625L7.45 15.0375L2 10.3125L9.2 9.6875L12 3.0625L14.8 9.6875L22 10.3125L16.55 15.0375L18.175 22.0625L12 18.3375L5.825 22.0625Z"
+                                    fill="#F5A937" />
+                                <path
+                                    d="M29.825 22.0625L31.45 15.0375L26 10.3125L33.2 9.6875L36 3.0625L38.8 9.6875L46 10.3125L40.55 15.0375L42.175 22.0625L36 18.3375L29.825 22.0625Z"
+                                    fill="#F5A937" />
+                                <path
+                                    d="M53.825 22.0625L55.45 15.0375L50 10.3125L57.2 9.6875L60 3.0625L62.8 9.6875L70 10.3125L64.55 15.0375L66.175 22.0625L60 18.3375L53.825 22.0625Z"
+                                    fill="#F5A937" />
+                                <path
+                                    d="M77.825 22.0625L79.45 15.0375L74 10.3125L81.2 9.6875L84 3.0625L86.8 9.6875L94 10.3125L88.55 15.0375L90.175 22.0625L84 18.3375L77.825 22.0625Z"
+                                    fill="#F5A937" />
+                                <path
+                                    d="M118 9.3025L110.81 8.6825L108 2.0625L105.19 8.6925L98 9.3025L103.46 14.0325L101.82 21.0625L108 17.3325L114.18 21.0625L112.55 14.0325L118 9.3025ZM108 15.4625V6.1625L109.71 10.2025L114.09 10.5825L110.77 13.4625L111.77 17.7425L108 15.4625Z"
+                                    fill="#F5A937" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_175_5">
+                                    <rect width="120" height="24" fill="white" transform="translate(0 0.0625)" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+
+                    </div>
+                </div>
+
+                <div class="card-testi">
+                    <div class="cardHeader">
+                        <img
+                            src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fdp.profilepics.in%2Fprofile_pictures%2Fboys-profile-pics%2Fboys-profile-pics-dp-for-whatsapp-facebook-02.jpg&f=1&nofb=1&ipt=8931cf2bc285e6dcde27496f57426cda33a1c399313c2c399cc7885faf3af705&ipo=images" />
+                    </div>
+                    <p class="cardTitle">John Smith</p>
+                    <p class="cardDesc">This has been such a great experience for my daughter! The Infinity Learning
+                        staff is knowledgeable and accommodating. I highly recommend them to anyone.</p>
+
+                    <div class="cardFooter">
+                        <svg width="120" height="25" viewBox="0 0 120 25" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_175_5)">
+                                <path
+                                    d="M5.825 22.0625L7.45 15.0375L2 10.3125L9.2 9.6875L12 3.0625L14.8 9.6875L22 10.3125L16.55 15.0375L18.175 22.0625L12 18.3375L5.825 22.0625Z"
+                                    fill="#F5A937" />
+                                <path
+                                    d="M29.825 22.0625L31.45 15.0375L26 10.3125L33.2 9.6875L36 3.0625L38.8 9.6875L46 10.3125L40.55 15.0375L42.175 22.0625L36 18.3375L29.825 22.0625Z"
+                                    fill="#F5A937" />
+                                <path
+                                    d="M53.825 22.0625L55.45 15.0375L50 10.3125L57.2 9.6875L60 3.0625L62.8 9.6875L70 10.3125L64.55 15.0375L66.175 22.0625L60 18.3375L53.825 22.0625Z"
+                                    fill="#F5A937" />
+                                <path
+                                    d="M77.825 22.0625L79.45 15.0375L74 10.3125L81.2 9.6875L84 3.0625L86.8 9.6875L94 10.3125L88.55 15.0375L90.175 22.0625L84 18.3375L77.825 22.0625Z"
+                                    fill="#F5A937" />
+                                <path
+                                    d="M118 9.3025L110.81 8.6825L108 2.0625L105.19 8.6925L98 9.3025L103.46 14.0325L101.82 21.0625L108 17.3325L114.18 21.0625L112.55 14.0325L118 9.3025ZM108 15.4625V6.1625L109.71 10.2025L114.09 10.5825L110.77 13.4625L111.77 17.7425L108 15.4625Z"
+                                    fill="#F5A937" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_175_5">
+                                    <rect width="120" height="24" fill="white" transform="translate(0 0.0625)" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- Partners -->
+    <main>
+
+        <div class="container containerPartnes">
+            <h2 class="generalTitle"> Our Parthnes</h2>
+
+            <div class="pathnes">
+
+                <img height="100px"
+                    src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.mhsdelmar.com.au%2Fwp-content%2Fuploads%2F2020%2F08%2Fthe-university-of-sydney-vector-logo.png&f=1&nofb=1&ipt=48ae0d3c2b763b1615446d335477f56d88e872452ec14c2c1eca0fd90f1f2851&ipo=images"
+                    alt="">
+                <img height="100px"
+                    src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2F1000marcas.net%2Fwp-content%2Fuploads%2F2020%2F03%2Funiversity-of-georgia-logo-1.png&f=1&nofb=1&ipt=668ef3dca70a33a93ee5fbc11530a359bcb5d88dbb3c8485af95ba3d570bd1bc&ipo=images"
+                    alt="">
+                <img height="100px"
+                    src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Flogos-world.net%2Fwp-content%2Fuploads%2F2021%2F03%2FPrinceton-University-Logo.png&f=1&nofb=1&ipt=f137f2dc7fe0b61d5724dd6e8c741a368d5bc48d11ee39426df40ca54f80b402&ipo=images"
+                    alt="">
+            </div>
+
+        </div>
+    </main>
+    <!-- Footer -->
+    <main class="footer space-y-20">
+        <div class="container">
+            <div class="socialContainer">
+                <div class="socialMedia">
+                    <p>Social Media</p>
+                    <div class="iconsMedia">
+                        <svg height="100%"
+                            style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"
+                            version="1.1" viewBox="0 0 512 512" width="100%" xml:space="preserve"
+                            xmlns="http://www.w3.org/2000/svg" xmlns:serif="http://www.serif.com/"
+                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <path
+                                d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-106.468,0l0,-192.915l66.6,0l12.672,-82.621l-79.272,0l0,-53.617c0,-22.603 11.073,-44.636 46.58,-44.636l36.042,0l0,-70.34c0,0 -32.71,-5.582 -63.982,-5.582c-65.288,0 -107.96,39.569 -107.96,111.204l0,62.971l-72.573,0l0,82.621l72.573,0l0,192.915l-191.104,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Z" />
+                        </svg>
+                        <svg height="100%"
+                            style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"
+                            version="1.1" viewBox="0 0 512 512" width="100%" xml:space="preserve"
+                            xmlns="http://www.w3.org/2000/svg" xmlns:serif="http://www.serif.com/"
+                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <path
+                                d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-106.468,0l0,-192.915l66.6,0l12.672,-82.621l-79.272,0l0,-53.617c0,-22.603 11.073,-44.636 46.58,-44.636l36.042,0l0,-70.34c0,0 -32.71,-5.582 -63.982,-5.582c-65.288,0 -107.96,39.569 -107.96,111.204l0,62.971l-72.573,0l0,82.621l72.573,0l0,192.915l-191.104,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Z" />
+                        </svg>
+                        <svg height="100%"
+                            style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"
+                            version="1.1" viewBox="0 0 512 512" width="100%" xml:space="preserve"
+                            xmlns="http://www.w3.org/2000/svg" xmlns:serif="http://www.serif.com/"
+                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <path
+                                d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-106.468,0l0,-192.915l66.6,0l12.672,-82.621l-79.272,0l0,-53.617c0,-22.603 11.073,-44.636 46.58,-44.636l36.042,0l0,-70.34c0,0 -32.71,-5.582 -63.982,-5.582c-65.288,0 -107.96,39.569 -107.96,111.204l0,62.971l-72.573,0l0,82.621l72.573,0l0,192.915l-191.104,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Z" />
+                        </svg>
+                        <svg height="100%"
+                            style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"
+                            version="1.1" viewBox="0 0 512 512" width="100%" xml:space="preserve"
+                            xmlns="http://www.w3.org/2000/svg" xmlns:serif="http://www.serif.com/"
+                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <path
+                                d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-106.468,0l0,-192.915l66.6,0l12.672,-82.621l-79.272,0l0,-53.617c0,-22.603 11.073,-44.636 46.58,-44.636l36.042,0l0,-70.34c0,0 -32.71,-5.582 -63.982,-5.582c-65.288,0 -107.96,39.569 -107.96,111.204l0,62.971l-72.573,0l0,82.621l72.573,0l0,192.915l-191.104,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Z" />
+                        </svg>
+                    </div>
+                </div>
+                <div>LOGO</div>
+                <div class="formSub">
+                    <form>
+                        <label for="subcribe">Subscribe now and take a 10% off</label>
+                        <div class="contentInput">
+                            <input type="email" placeholder="Type your email" />
+                            <input type="button" value="SUBSCRIBE" />
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="addressInformation">
+                <div>
+                    <p>Email</p>
+                    <p>info@caceres.com</p>
+                </div>
+
+                <div>
+                    <p>Phone</p>
+                    <p>(123)123-1234</p>
+                </div>
+
+                <div>
+                    <p>Address</p>
+                    <p>12150 Morris Road Alpharetta, GA 30005</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div class="signatureContainer">
+        <div class="container signature">
+            <p>Carefully created by Jasson Caceres</p>
+            <p>Copyright © 2022 <span>JACAVI</span>, All right reserved</p>
+        </div>
+    </div>
+
+
+    <script src="/main.js"></script>
+</body>
+
+</html>
